@@ -1,0 +1,13 @@
+#archivos del sistema
+.DS_Store
+Thumbs.db    
+
+#carpetas de dependecia
+node_modules/
+
+#archivos de entorno
+.env
+
+#archivos de mi id
+.vscode/
+.idea/

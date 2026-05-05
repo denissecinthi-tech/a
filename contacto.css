@@ -1,0 +1,112 @@
+body {
+    background-color: #A19B8C;
+    color: #472B30;
+    font-family: Arial, sans-serif;
+}
+
+/* TITULO */
+.titulo {
+    color: #5B383E;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* TARJETAS */
+.contacto-card {
+    background-color: #AC7878;
+    border-radius: 15px;
+    border: none;
+    transition: 0.3s;
+    color: #fff;
+}
+
+.contacto-card:hover {
+    transform: translateY(-5px);
+}
+
+/* INPUTS */
+.form-control {
+    background-color: #F4F1EC;
+    border: 1px solid #664F42;
+    color: #472B30;
+}
+
+.form-control:focus {
+    border: 2px solid #5B383E;
+    box-shadow: none;
+}
+
+/* BOTONES */
+.btn-custom {
+    background-color: #664F42;
+    color: white;
+    border: none;
+}
+
+.btn-custom:hover {
+    background-color: #5B383E;
+}
+
+.btn-wsp {
+    background-color: #25D366;
+    color: white;
+}
+
+.btn-wsp:hover {
+    background-color: #1ebe5d;
+}
+
+/* REDES */
+.redes a {
+    display: inline-block;
+    margin-right: 10px;
+    color: #472B30;
+    font-weight: bold;
+}
+
+.redes a:hover {
+    color: #fff;
+}
+
+/* MENSAJE */
+#respuesta {
+    color: #472B30;
+    font-weight: bold;
+}
+
+/* MAPA */
+iframe {
+    border-radius: 10px;
+}
+
+/* RESPONSIVE */
+
+/* TABLET */
+@media (max-width: 992px) {
+    h1 {
+        font-size: 28px;
+    }
+
+    .contacto-card {
+        padding: 20px;
+    }
+}
+
+/* CELULAR */
+@media (max-width: 576px) {
+    h1 {
+        font-size: 24px;
+    }
+
+    .titulo {
+        font-size: 22px;
+    }
+
+    .contacto-card {
+        padding: 15px;
+    }
+
+    .btn {
+        font-size: 14px;
+    }
+}
